@@ -18,7 +18,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // fetch locations from GeoNames
 async function findLocations() {
     const username = 'jda20'; 
-    const url = `https://secure.geonames.org/searchJSON?q=${name}}&maxRows=1000&username=${username}`;
+    const url = `https://secure.geonames.org/searchJSON?q=${name}&maxRows=1000&username=${username}`;
 
     try {
         const response = await fetch(url);
