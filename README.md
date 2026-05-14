@@ -1,1 +1,0 @@
-# jda20-Earth.github.io
